@@ -1,8 +1,8 @@
-# looping through list
+# looping through enumerate - gives index + val
 x = [1,5 ,546, 23, 12, 1]
 
-for i in range(len(x)):
-    print(i)
+for i, element in enumerate(x):
+    print(i, element)
 
 
 # # looping through list
