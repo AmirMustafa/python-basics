@@ -8,8 +8,13 @@ x3 = [0 for x3 in range(5)]
 
 x5 = [i for i in range(100) if i % 2 == 0]
 
-print(x1)
-print(x2)
-print(x3)
-print(x4)
-print(x5)
+# x6 = {i:0 for i in range(100) if i % 2 == 0}
+x7 = {i for i in range(100) if i % 2 == 0}
+
+# print(x1)
+# print(x2)
+# print(x3)
+# print(x4)
+# print(x5)
+# print(x6)
+print(x7)
