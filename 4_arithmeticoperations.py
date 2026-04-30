@@ -1,8 +1,14 @@
-
 q = 10
 r = 3
-result = q % r
+result = (q % r)
 print(result)
+
+
+
+# q = 10
+# r = 3
+# result = q % r
+# print(result)
 
 
 # q = 9.8
